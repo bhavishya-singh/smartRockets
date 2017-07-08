@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(125);
   population.run();
   lifeP.html(count);
 
@@ -32,7 +32,7 @@ function draw() {
     count = 0;
   }
 
-  fill(255);
+  fill(60);
   rect(rx, ry, rw, rh);
 
   ellipse(target.x, target.y, 16, 16);
