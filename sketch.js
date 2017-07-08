@@ -1,6 +1,6 @@
 
 var population;
-var lifespan = 400;
+var lifespan = 300;
 var lifeP;
 var count = 0;
 var target;
